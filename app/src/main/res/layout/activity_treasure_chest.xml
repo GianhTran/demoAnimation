@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_gradient_gift">
+
+
+    <ImageView
+        android:id="@+id/image_chest_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/wood_1"/>
+
+    <ImageView
+        android:id="@+id/image_chest_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:alpha="0"
+        android:scaleType="centerCrop"
+        android:src="@drawable/wood_2"/>
+
+    <ImageView
+        android:id="@+id/image_chest_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:alpha="0"
+        android:src="@drawable/wood_4"/>
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="start"/>
+
+    <RelativeLayout
+        android:id="@+id/relative_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:alpha="0"
+        android:gravity="center"
+        android:scaleX="0.3"
+        android:scaleY="0.3">
+
+        <ImageView
+            android:id="@+id/image_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/light_card"/>
+
+        <ImageView
+            android:id="@+id/image_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/card"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
